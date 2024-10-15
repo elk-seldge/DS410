@@ -1,0 +1,2 @@
+# python3 q1.py -r hadoop --hadoop-streaming-jar /home2/hadoop-3.3.2/share/hadoop/tools/lib/hadoop-streaming-3.3.2.jar --jobconf mapred.reduce.tasks=4 hdfs:///datasets/flight/flight.csv hdfs:///datasets/flight2022/flight2022.csv --output-dir hdfs:///user/psuid/q1_output --no-output
+python3 q1.py test2021.txt test2022.txt > q1_test_output
